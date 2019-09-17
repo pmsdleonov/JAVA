@@ -5,9 +5,13 @@ public class Tribe {
     private int number;
     private String fire;
 
-
     public Tribe(String name, int number, String fire) {
         this.name = name;
+        this.number = number;
+        this.fire = fire;
+    }
+
+    public Tribe(int number, String fire) {
         this.number = number;
         this.fire = fire;
     }
@@ -41,6 +45,3 @@ public class Tribe {
         return name + ";" + number + ";" + fire;
     }
 }
-
-
-

@@ -58,4 +58,3 @@ public class Runner{
         System.out.println("\nNumber of tribes familiar with fire: "+yesFire_count);
     }
 }
-
